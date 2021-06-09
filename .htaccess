@@ -1,0 +1,24 @@
+RewriteEngine On
+
+Options +MultiViews  
+
+RewriteRule music/([0-9a-zA-Z]+) get.php?get=$1
+
+RewriteRule adds/([0-9a-zA-Z]+) /admin
+
+RewriteRule ^watch/([0-9a-zA-Z,.%-_]+) article.php?v=$1
+
+RewriteRule q/([0-9a-zA-Z]+) search.php?search=$1
+
+
+RewriteRule ^postsedit/([0-9a-zA-Z,.%-_]+) admin/editpost.php?get=$1
+
+RewriteRule postsedits/([0-9a-zA-Z]+) user/editpost.php?get=$1
+RewriteRule ^video/([0-9a-zA-Z,.%-_]+) wat.php?v=$1
+RewriteRule edits/([0-9a-zA-Z,.%]+) get.php?get=$1
+RewriteRule u/([0-9a-zA-Z,.%]+) user/profile.php?user=$1
+
+
+
+
+
