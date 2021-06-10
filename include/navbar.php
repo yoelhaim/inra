@@ -22,6 +22,9 @@
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><?php echo $_SESSION['email'] ?></a>
                     </li>
+                    <li class="nav-item">
+                        <a class=" btn btn-danger" href="<?php echo $site ?>/include/logout" tabindex="-1" aria-disabled="true">deconnection</a>
+                    </li>
                 </ul>
 
             </div>

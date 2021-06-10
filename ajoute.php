@@ -14,7 +14,7 @@ if(isset($_SESSION['is_logged']) and $_SESSION['is_logged'] == TRUE){
     die();
 }
 ?>
-?>
+
 
 <div class="container">
     <div class="logincol">
