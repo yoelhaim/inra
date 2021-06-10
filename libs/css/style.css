@@ -27,14 +27,17 @@ body{background-color:#333538;
     border-radius: 10px;
     border:1px solid white;
     box-shadow: 2px 2px 4px rgb(141, 137, 137);
+    padding: 20px;
 }
 .row .col-md-2 strong{
     font-size: 28px;
+   
    
 }
 .table{
     background-color: #3e4347;color: white;
 }
+
 /* for tesponseve  */
      @media(max-width:800px){
        
